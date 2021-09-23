@@ -3,27 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		634D574B26FBBC5900CDD431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634D574A26FBBC5900CDD431 /* AppDelegate.swift */; };
 		634D574D26FBBC5900CDD431 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634D574C26FBBC5900CDD431 /* SceneDelegate.swift */; };
-		634D574F26FBBC5900CDD431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634D574E26FBBC5900CDD431 /* ViewController.swift */; };
+		634D574F26FBBC5900CDD431 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634D574E26FBBC5900CDD431 /* AuthViewController.swift */; };
 		634D575226FBBC5900CDD431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634D575026FBBC5900CDD431 /* Main.storyboard */; };
 		634D575426FBBC5B00CDD431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634D575326FBBC5B00CDD431 /* Assets.xcassets */; };
 		634D575726FBBC5B00CDD431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634D575526FBBC5B00CDD431 /* LaunchScreen.storyboard */; };
+		634D576226FBC9D200CDD431 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 634D576126FBC9D200CDD431 /* GoogleService-Info.plist */; };
+		634D576526FBCFA500CDD431 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634D576426FBCFA500CDD431 /* HomeViewController.swift */; };
+		FFDF01506154CBA9E3F2BB8D /* Pods_TutorialFireBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5FE1F7740DD816263416D5 /* Pods_TutorialFireBase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FC0410EA7FB5280145A2049 /* Pods-TutorialFireBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TutorialFireBase.release.xcconfig"; path = "Target Support Files/Pods-TutorialFireBase/Pods-TutorialFireBase.release.xcconfig"; sourceTree = "<group>"; };
+		3A5FE1F7740DD816263416D5 /* Pods_TutorialFireBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TutorialFireBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		634D574726FBBC5900CDD431 /* TutorialFireBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorialFireBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		634D574A26FBBC5900CDD431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		634D574C26FBBC5900CDD431 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		634D574E26FBBC5900CDD431 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		634D574E26FBBC5900CDD431 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		634D575126FBBC5900CDD431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		634D575326FBBC5B00CDD431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		634D575626FBBC5B00CDD431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		634D575826FBBC5B00CDD431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634D576126FBC9D200CDD431 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		634D576426FBCFA500CDD431 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F0CF8A3A106EC3138EED2B8D /* Pods-TutorialFireBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TutorialFireBase.debug.xcconfig"; path = "Target Support Files/Pods-TutorialFireBase/Pods-TutorialFireBase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFDF01506154CBA9E3F2BB8D /* Pods_TutorialFireBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48D4CFD0ED8688095E80818B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0CF8A3A106EC3138EED2B8D /* Pods-TutorialFireBase.debug.xcconfig */,
+				2FC0410EA7FB5280145A2049 /* Pods-TutorialFireBase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		634D573E26FBBC5800CDD431 = {
 			isa = PBXGroup;
 			children = (
 				634D574926FBBC5900CDD431 /* TutorialFireBase */,
 				634D574826FBBC5900CDD431 /* Products */,
+				48D4CFD0ED8688095E80818B /* Pods */,
+				CFEF44B9245E7E053A56A9DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +78,23 @@
 			children = (
 				634D574A26FBBC5900CDD431 /* AppDelegate.swift */,
 				634D574C26FBBC5900CDD431 /* SceneDelegate.swift */,
-				634D574E26FBBC5900CDD431 /* ViewController.swift */,
+				634D574E26FBBC5900CDD431 /* AuthViewController.swift */,
+				634D576426FBCFA500CDD431 /* HomeViewController.swift */,
 				634D575026FBBC5900CDD431 /* Main.storyboard */,
 				634D575326FBBC5B00CDD431 /* Assets.xcassets */,
 				634D575526FBBC5B00CDD431 /* LaunchScreen.storyboard */,
 				634D575826FBBC5B00CDD431 /* Info.plist */,
+				634D576126FBC9D200CDD431 /* GoogleService-Info.plist */,
 			);
 			path = TutorialFireBase;
+			sourceTree = "<group>";
+		};
+		CFEF44B9245E7E053A56A9DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A5FE1F7740DD816263416D5 /* Pods_TutorialFireBase.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 634D575B26FBBC5B00CDD431 /* Build configuration list for PBXNativeTarget "TutorialFireBase" */;
 			buildPhases = (
+				77C60D4B469FBB5A2A78DAAF /* [CP] Check Pods Manifest.lock */,
 				634D574326FBBC5900CDD431 /* Sources */,
 				634D574426FBBC5900CDD431 /* Frameworks */,
 				634D574526FBBC5900CDD431 /* Resources */,
+				7873F5AB558F3C5028D73037 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				634D575726FBBC5B00CDD431 /* LaunchScreen.storyboard in Resources */,
+				634D576226FBC9D200CDD431 /* GoogleService-Info.plist in Resources */,
 				634D575426FBBC5B00CDD431 /* Assets.xcassets in Resources */,
 				634D575226FBBC5900CDD431 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +165,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		77C60D4B469FBB5A2A78DAAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TutorialFireBase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7873F5AB558F3C5028D73037 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TutorialFireBase/Pods-TutorialFireBase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TutorialFireBase/Pods-TutorialFireBase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TutorialFireBase/Pods-TutorialFireBase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		634D574326FBBC5900CDD431 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				634D574F26FBBC5900CDD431 /* ViewController.swift in Sources */,
+				634D574F26FBBC5900CDD431 /* AuthViewController.swift in Sources */,
 				634D574B26FBBC5900CDD431 /* AppDelegate.swift in Sources */,
 				634D574D26FBBC5900CDD431 /* SceneDelegate.swift in Sources */,
+				634D576526FBCFA500CDD431 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +359,7 @@
 		};
 		634D575C26FBBC5B00CDD431 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0CF8A3A106EC3138EED2B8D /* Pods-TutorialFireBase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,7 +370,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dominos.modal.TutorialFireBase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.villegas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,6 +379,7 @@
 		};
 		634D575D26FBBC5B00CDD431 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FC0410EA7FB5280145A2049 /* Pods-TutorialFireBase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,7 +390,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dominos.modal.TutorialFireBase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.villegas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
